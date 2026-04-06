@@ -1,0 +1,40 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Hey!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "who are you"
+            ],
+            "responses": [
+                "I am your NLP chatbot."
+            ]
+        }
+    ]
+}
